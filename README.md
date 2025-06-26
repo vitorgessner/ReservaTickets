@@ -1,1 +1,1 @@
-## Reserva de tickets com java e event driven archictecrue
+## Reserva de tickets com Java e Event Driven Architecture

@@ -1,7 +1,9 @@
 package br.univali.sisnet.reservaTicket.dominio.ticketing;
 
-public class TicketReservedEvent {
-    private String ticketId;
+import br.univali.sisnet.reservaTicket.dominio.common.Event;
+
+public class TicketReservedEvent implements Event {
+	public final String ticketId;
 
     public TicketReservedEvent(String ticketId){
         this.ticketId = ticketId;

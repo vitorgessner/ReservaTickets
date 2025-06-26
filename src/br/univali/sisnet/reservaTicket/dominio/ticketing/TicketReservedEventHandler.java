@@ -7,5 +7,6 @@ public class TicketReservedEventHandler implements EventHandler<TicketReservedEv
     @Override
     public void handleEvent(TicketReservedEvent event) {
         // Lida com a lógica de TickerReservedEvent
+    	System.out.println("Notifica o usuário que a reserva foi efetuada");
     }
 }
